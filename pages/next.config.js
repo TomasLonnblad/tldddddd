@@ -7,6 +7,10 @@ const nextConfig = {
   images: {
   unoptimized: true,
 },
+
+module.exports = {
+  pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts'],
+}
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
  
